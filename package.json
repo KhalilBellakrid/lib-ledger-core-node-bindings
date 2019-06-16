@@ -10,7 +10,6 @@
   },
   "gypfile": true,
   "scripts": {
-    "preinstall": "node preinstall.js",
     "gypinstall": "node-gyp rebuild",
     "gypclean": "node-gyp clean",
     "gypconfig": "node-gyp configure",

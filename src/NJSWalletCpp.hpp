@@ -7,11 +7,13 @@
 
 #include "../include/AccountCreationInfo.hpp"
 #include "../include/BitcoinLikeNetworkParameters.hpp"
+#include "../include/CosmosLikeNetworkParameters.hpp"
 #include "../include/Currency.hpp"
 #include "../include/CurrencyUnit.hpp"
 #include "../include/EthereumLikeNetworkParameters.hpp"
 #include "../include/ExtendedKeyAccountCreationInfo.hpp"
 #include "../include/RippleLikeNetworkParameters.hpp"
+#include "../include/TezosLikeNetworkParameters.hpp"
 #include "../include/WalletType.hpp"
 #include "NJSAccountCallback.hpp"
 #include "NJSAccountCreationInfoCallback.hpp"

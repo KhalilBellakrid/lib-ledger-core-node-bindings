@@ -6,8 +6,10 @@
 
 
 #include "../include/BitcoinLikeNetworkParameters.hpp"
+#include "../include/CosmosLikeNetworkParameters.hpp"
 #include "../include/EthereumLikeNetworkParameters.hpp"
 #include "../include/RippleLikeNetworkParameters.hpp"
+#include "../include/TezosLikeNetworkParameters.hpp"
 #include <memory>
 #include <string>
 
@@ -38,6 +40,12 @@ private:
 
     /** The Ripple network parameters. */
     static NAN_METHOD(ripple);
+
+    /** The Tezos network parameters. */
+    static NAN_METHOD(tezos);
+
+    /** The Cosmos network parameters. */
+    static NAN_METHOD(cosmos);
 
     static NAN_METHOD(New);
 

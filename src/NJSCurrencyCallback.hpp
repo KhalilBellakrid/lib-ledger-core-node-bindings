@@ -7,11 +7,13 @@
 
 #include "../include/../utils/optional.hpp"
 #include "../include/BitcoinLikeNetworkParameters.hpp"
+#include "../include/CosmosLikeNetworkParameters.hpp"
 #include "../include/Currency.hpp"
 #include "../include/CurrencyUnit.hpp"
 #include "../include/Error.hpp"
 #include "../include/EthereumLikeNetworkParameters.hpp"
 #include "../include/RippleLikeNetworkParameters.hpp"
+#include "../include/TezosLikeNetworkParameters.hpp"
 #include <string>
 
 #include <nan.h>

@@ -17,7 +17,7 @@
 
 namespace ledger { namespace core { namespace api {
 
-/** Class representing Ethereum block. */
+/** Class representing Bitcoin block. */
 class LIBCORE_EXPORT EthereumLikeBlock {
 public:
     virtual ~EthereumLikeBlock() {}

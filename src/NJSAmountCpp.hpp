@@ -7,12 +7,14 @@
 
 #include "../include/../utils/optional.hpp"
 #include "../include/BitcoinLikeNetworkParameters.hpp"
+#include "../include/CosmosLikeNetworkParameters.hpp"
 #include "../include/Currency.hpp"
 #include "../include/CurrencyUnit.hpp"
 #include "../include/EthereumLikeNetworkParameters.hpp"
 #include "../include/FormatRules.hpp"
 #include "../include/Locale.hpp"
 #include "../include/RippleLikeNetworkParameters.hpp"
+#include "../include/TezosLikeNetworkParameters.hpp"
 #include "NJSBigIntCpp.hpp"
 #include <cstdint>
 #include <memory>
